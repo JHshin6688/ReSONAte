@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+requests
+pydantic
+streamlit
+keybert
+nltk
+graphviz
+python-dotenv
+openai
