@@ -30,12 +30,12 @@ Install required Python packages:
 pip install -r requirements.txt
 ```
 ### 3. Add Your API Key
-Create a .env file in the project root and add your Perplexity API key:
+Create a .env file in the project root and add your API keys:
 ```
 PERPLEXITY_API_KEY=your_perplexity_api_key_here
+LINK_PREVIEW_API_KEY="your-link-preview-key-here"
+SEMANTIC_SCHOLAR_API_KEY="your-semantic-scholar-key-here"
 ```
-Feel free to use the LinkPreview API key and the Semantic Scholar API key given in .env.example.
-While they are free and do not incur costs, please do not share or expose them publicly, as they are tied to my account.
 
 ### 4. Running the App
 To start ReSONAte, run the following commands in two separate terminals:
